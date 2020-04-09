@@ -1,0 +1,59 @@
+
+<app-header></app-header>
+
+<div class="row">
+
+    <div class="col-md-8 videoWrapper">
+        
+        <img class="video" [src]="video.video"/>
+
+        <h4 class="videoTitle"> {{ video.videoName }} </h4>
+
+        <div class="row">
+            <div class="col-md-2">
+                <p class="videoMetaData"> {{ video.amountOfViews | views : true }} views </p> 
+            </div>
+            <div class="col-md-2"> {{ video.whenItWasPosted }} </div>
+        </div>
+
+    </div>
+
+    
+    <div class="col-md-4">
+        <app-ad-box></app-ad-box>
+
+        <div class="row">
+            <div class="col-md-12">
+                <app-video-thumbnail></app-video-thumbnail>
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <app-video-thumbnail></app-video-thumbnail>
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <app-video-thumbnail></app-video-thumbnail>
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <app-video-thumbnail></app-video-thumbnail>
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <app-video-thumbnail></app-video-thumbnail>
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <app-video-thumbnail></app-video-thumbnail>
+            </div> 
+        </div>
+
+    </div>
+
+
+</div>

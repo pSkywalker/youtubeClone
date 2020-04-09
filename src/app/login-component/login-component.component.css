@@ -1,0 +1,36 @@
+.loginPageText{ 
+    margin-left: 10%;
+}
+
+.subHeading{ 
+    color: #606060;
+    margin-bottom: 40px; 
+}
+
+.loginInput{ 
+    border: 1px solid #ccc;
+    width: 80%;
+    display: block;
+    margin:25px auto 0 auto;
+    height: 32px;
+    text-indent: 10px;
+}
+
+.loginButton{ 
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 10px;
+    height: 40px;
+    background-color: #065FD4;
+    color: white;
+}
+
+.signUpText{ 
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.signUp{
+    cursor: pointer; 
+    color: #065FD4;
+}

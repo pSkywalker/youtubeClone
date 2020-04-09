@@ -1,0 +1,27 @@
+
+.uploadBox{ 
+    border: 2px solid black;
+    height: 250px;
+}
+
+p{ 
+    text-align: center;
+}
+
+.uploadButton::-webkit-file-upload-button{
+    visibility: hidden;
+}
+
+.uploadButton::before{ 
+    content: "SELECT FILE";
+    margin:auto;
+    text-align: center;
+    cursor: pointer;
+    width:113px;
+    height: 36px;
+    padding-top: 4px;
+    border: 1px solid #065fd4;
+    background-color: #065fd4;
+    color: #FFFFFF;
+    font-size: 14px;
+}

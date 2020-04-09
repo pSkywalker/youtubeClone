@@ -1,0 +1,53 @@
+
+<div class="header row">
+
+    <div class="col-md-2">
+        <div class="row">
+            <div class="col-md-3">
+                <img (click)="changeNavView()" class="nav" src="../../assets/imgs/navButton.png"/>
+            </div>
+            <div class="col-md-6">
+                <img (click)="home()" class="logo" src="../../assets/imgs/logo.png"/>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-md-1"></div>
+
+    <div class="col-md-6">
+        <div class="row search">
+            <div class="col-md-10 search"> 
+                <input class="searchBar" type="text" placeholder="Search"/>
+            </div>
+            <div class="col-md-2 search">
+                <div class="searchButton ">
+                    <img class="searchIcon" src="../../assets/imgs/searchBarIcon.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-md-1"></div>
+    
+    <div class="col-md-2">
+        <div class="row">
+            <div class="col-md-2">
+                <img (click)="upload()" class="uploadButton" src="../../assets/imgs/uploadIcon.png"/>
+            </div>
+            <div class="col-md-2">
+                <img (click)="youtubeApps()" class="headerIcons youtubeAppsButton" src="../../assets/imgs/youtubeAppsIcon.png"/>
+            </div>
+            <div class="col-md-2">
+                <img (click)="settings()" class="headerIcons settingsButton" src="../../assets/imgs/settingsIcon.png"/> 
+            </div>
+            <div class="col-md-6">
+                <app-sign-in-button class="signInButton"></app-sign-in-button>
+            </div>
+        </div>
+    </div> 
+
+</div>
+
+

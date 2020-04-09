@@ -1,0 +1,24 @@
+
+<div class="row">
+
+    <div class="col-md-4"></div>
+    
+    
+    <div class="col-md-4">
+        
+        <div class="loginWrapper">
+           
+            <img class="youtubeIcon" src="../../assets/imgs/logo.png"/>
+        
+            <app-login-component *ngIf="authMode == 0"></app-login-component>
+            <app-register-component *ngIf="authMode == 1"></app-register-component>
+
+        </div>
+
+
+    </div>
+    
+
+</div> 
+
+

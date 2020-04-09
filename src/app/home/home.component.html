@@ -1,0 +1,60 @@
+
+
+<app-header></app-header> 
+
+<div class="row">
+    <div *ngIf="navView == 1" class="col-md-4 col-lg-2">
+        <app-navigation-bar></app-navigation-bar>
+    </div>
+    <div *ngIf="navView == 0" class="col-md-1 col-lg-1">
+        <app-mini-navigation-bar></app-mini-navigation-bar>
+    </div> 
+    <div class="videos col-md-8 col-lg-10">
+        <app-upload-box *ngIf="showUpload"></app-upload-box>
+
+        <app-ad-box></app-ad-box>
+        
+        <div class="row">
+            <div class="col-md-3">
+                <app-video-thumbnail></app-video-thumbnail>
+            </div> 
+            <div class="col-md-3">
+                <app-video-thumbnail></app-video-thumbnail>
+            </div> 
+            <div class="col-md-3">
+                <app-video-thumbnail></app-video-thumbnail>
+            </div> 
+            <div class="col-md-3">
+                <app-video-thumbnail></app-video-thumbnail>
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <app-video-thumbnail></app-video-thumbnail>
+            </div> 
+            <div class="col-md-3">
+                <app-video-thumbnail></app-video-thumbnail>
+            </div> 
+            <div class="col-md-3">
+                <app-video-thumbnail></app-video-thumbnail>
+            </div> 
+            <div class="col-md-3">
+                <app-video-thumbnail></app-video-thumbnail>
+            </div> 
+        </div><div class="row">
+            <div class="col-md-3">
+                <app-video-thumbnail></app-video-thumbnail>
+            </div> 
+            <div class="col-md-3">
+                <app-video-thumbnail></app-video-thumbnail>
+            </div> 
+            <div class="col-md-3">
+                <app-video-thumbnail></app-video-thumbnail>
+            </div> 
+            <div class="col-md-3">
+                <app-video-thumbnail></app-video-thumbnail>
+            </div> 
+        </div>
+        
+    </div>
+</div> 

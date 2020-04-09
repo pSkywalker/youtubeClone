@@ -1,0 +1,54 @@
+
+
+
+<div *ngIf="!videoPlayer" (click)="viewVideo()" class="videoWrapper">
+    
+    <img class="videoImg" [src]="video.videoPicture"/>
+
+    <div class="row">
+        <div class="col-md-2">
+            <img class="profilePicture" [src]="video.profilePicture"/> 
+        </div>
+        <div class="col-md-10 videoHeading">
+            <p class="videoName"> {{ video.videoName }} </p>
+            <p classs="contentCreator"></p>
+            <div class="row videoThumbnail">
+                <div class="col-md-12">
+                    <p class="videoMetaData"> {{ video.contentCreator }} </p> 
+                </div>
+            </div>
+            <div class="row videoThumbnail">
+                <div class="col-md-6">
+                    <p class="videoMetaData">{{ video.amountOfViews | views }} views </p>
+                </div>
+                <div class="col-md-6"> 
+                    <p class="videoMetaData">{{ video.whenItWasPosted | dataFormatterVideoPosted }}</p>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+
+</div>
+
+<div *ngIf="videoPlayer" class="videoWrapper">
+
+    <div class="row">
+        <div class="col-md-6">
+            <img class="videoPlayerThumbnail" [src]="video.videoPicture"/>
+        </div>
+        <div class="col-md-6">
+            <p class="videoMetaData"> {{ video.videoName }} </p>
+            <p class="videoMetaData"> {{ video.contentCreator }} </p>
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="videoMetaData"> {{ video.amountOfViews | views }} </p>
+                </div>
+                <div class="col-md-4">
+                    <p class="videoMetaData">  {{ video.whenItWasPosted | dataFormatterVideoPosted }} </p> 
+                </div> 
+            </div>
+        </div>
+    </div>
+
+</div>

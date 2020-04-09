@@ -1,0 +1,47 @@
+
+
+.header{ 
+    height: 60px;
+}
+
+.nav{ 
+    margin: auto;
+    padding-top: 15px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.logo{ 
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.search{ 
+    padding: 0;
+    margin: 0;
+}
+.searchBar{ 
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    width: 100%;
+    height: 32px;
+    text-indent: 10px;
+}
+
+.searchButton{ 
+    background-color: #f8f8f8;
+    text-align: center;
+    padding-top: 2px; 
+    width: 65px;
+    height: 32px;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+}
+
+.uploadButton{ 
+    margin-top: 20px;
+}
+
+.headerIcons{ 
+    padding-top: 14px;
+}
+
