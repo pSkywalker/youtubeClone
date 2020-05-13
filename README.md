@@ -1,4 +1,8 @@
-# YoutubeCloneFrontent
+Front-end of youtube clone
+
+Demo : https://www.instagram.com/living_the_dev_life/
+
+# YoutubeCloneFrontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
